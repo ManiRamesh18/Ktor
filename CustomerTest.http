@@ -1,0 +1,16 @@
+DELETE http://0.0.0.0:8080/customer?id=123
+
+###
+GET http://0.0.0.0:8080/customer
+Accept: application/json
+
+###
+ POST http://0.0.0.0:8080/customer
+Content-Type: application/json
+
+ {
+ "id":"1",
+ "firstName":"Arun",
+ "lastName":"Kumar",
+ "email":"nithish@gmail.com"
+ }
